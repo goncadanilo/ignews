@@ -19,7 +19,68 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-<h1 align="center">
- 🚧 Em desenvolvimento...
-</h1>
+<br>
+
+![Ignews](https://user-images.githubusercontent.com/53796755/174175086-fb1c55b0-ae11-4198-96ed-a25e41182f1b.png)
+
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [React JS](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [NextAuth](https://next-auth.js.org/)
+- [Strapi](https://strapi.io/)
+- [Prismic CMS](https://prismic.io/)
+- [FaunaDB](https://fauna.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+
+## 💻 Projeto
+
+Esse projeto é um portal de conteúdos onde o usuário pode se inscrever para ter acesso a conteúdos exclusivos.
+
+Nesse módulo aprendi como construir uma aplicação front-end web completa utilizando Next.js e conceitos importantes como Server Side Rendering(SSR), Site Static Generation(SSG), consumir um gateway de pagamentos, executar de funções serverless em um ambiente front-end, consumir um CMS e muito mais.
+
+## 🔧 Como rodar
+
+É necessário ter instalado:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+
+### 🗂 Faça um clone do projeto
+
+```bash
+git clone https://github.com/goncadanilo/ignews.git
+```
+
+### 📥 Instale as dependências
+```bash
+# Acesse o diretório do projeto
+cd ignews
+
+# Instale as dependências
+yarn
+```
+
+### ⚡ Inicie a aplicação
+```bash
+yarn dev
+```
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Feito com ♥ by [Danilo Gonçalves](https://github.com/goncadanilo). Me adicione no [LinkedIn](https://www.linkedin.com/in/goncadanilo/) :wave:
