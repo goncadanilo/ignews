@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React JS](https://pt-br.reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [NextAuth](https://next-auth.js.org/)
-- [Strapi](https://strapi.io/)
+- [Stripe](https://stripe.com/)
 - [Prismic CMS](https://prismic.io/)
 - [FaunaDB](https://fauna.com/)
 - [TypeScript](https://www.typescriptlang.org/)
