@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { RichText } from "prismic-dom";
 import { useEffect } from "react";
-import { getPrismicClient } from "src/services/prismic";
+import { getPrismicClient } from "../../../services/prismic";
 import styles from "../post.module.scss";
 
 interface PostResponse {
@@ -85,7 +85,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     slug,
     title: RichText.asText(response.data.title),
     content: RichText.asHtml(response.data.content.slice(0, 3)),
-    updateAt: new Date(response.last_publication_date).toLocaleDateString(
+    updatedAt: new Date(response.last_publication_date).toLocaleDateString(
       "pt-BR",
       {
         day: "2-digit",
