@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import { RichText } from "prismic-dom";
-import { getPrismicClient } from "src/services/prismic";
+import { getPrismicClient } from "../../services/prismic";
 import styles from "./styles.module.scss";
 
 type Content = {
