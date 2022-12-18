@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { mocked } from "jest-mock";
-import Post, { getStaticProps } from "../../pages/posts";
+import Posts, { getStaticProps } from "../../pages/posts";
 import { getPrismicClient } from "../../services/prismic";
 
 jest.mock("../../services/prismic");
@@ -14,9 +14,9 @@ const posts = [
   },
 ];
 
-describe("Post page", () => {
+describe("Posts page", () => {
   it("should render correctly", () => {
-    render(<Post posts={posts} />);
+    render(<Posts posts={posts} />);
 
     expect(screen.getByText("My new post")).toBeInTheDocument();
   });
