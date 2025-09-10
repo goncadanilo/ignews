@@ -46,9 +46,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+[PT-BR]
+
 Esse projeto é um portal de conteúdos onde o usuário pode se inscrever para ter acesso a conteúdos exclusivos.
 
 Nesse módulo aprendi como construir uma aplicação front-end web completa utilizando Next.js e conceitos importantes como Server Side Rendering(SSR), Site Static Generation(SSG), consumir um gateway de pagamentos, executar de funções serverless em um ambiente front-end, consumir um CMS e muito mais.
+
+[EN]
+
+This project is a content portal where users can subscribe to gain access to exclusive content.
+
+In this module, I learned how to build a complete front-end web application using Next.js, applying important concepts such as Server-Side Rendering (SSR), Static Site Generation (SSG), integrating with a payment gateway, executing serverless functions in a front-end environment, consuming a CMS, and much more.
+
 
 ## 🔧 Como rodar
 
